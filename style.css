@@ -1,0 +1,2520 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*--========Home Section==========--*/
+#home-page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-bg.jpg );
+    
+    background-size: cover;
+    
+   
+}
+/*--Toolbar--*/
+.toolbar .logo{
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+ .nav-link  {
+    color: white;
+    margin-left: 30px;
+    
+    
+}
+.toolbar-btn button {
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+}
+/*---Home Text---*/
+.home-text h1{
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+.home-text p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*---Boxes--*/
+
+.boxes {
+    padding-left: 150px;
+    padding-top: 90px;
+}
+.boxes .box {
+    margin-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    border: 1px solid white;
+}
+.box h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.box i{
+    color: yellow;
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*--=========About US Section==========---*/
+#about-us {
+    width: 100%;
+    height: 100vh;
+}
+.about-txt {
+    padding-top: 80px;
+}
+.about-img img {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+/*---About Skikers--*/
+.stiker img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+/*--Features Section--*/
+#features {
+    width: 100%;
+    height: 100vh;
+}
+.feature-img img{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.feature-txt{
+    padding-top: 100px;
+}
+.feature-txt .txt-data {
+    
+    padding-bottom: 10px;
+    
+}
+.txt-data h4 {
+    padding-left: 50px;
+    
+    
+}
+.txt-data p{
+    padding-left: 50px;
+    
+}
+.txt-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+/*--==Services Section--=====*/
+#services{
+    width: 100%;
+    height: 110vh;
+
+}
+.services_name{
+    padding-top: 3%;
+
+}
+.services_name h6{
+    color: gray;
+}
+.services_heading h2{
+    padding-bottom: 10px;
+}
+.services_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.services_box{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 250px;
+}
+.services_box i{
+    background-color: coral;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+.services_box h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*----====Call to action===---*/
+#cta {
+    width: 100%;
+    height: 40vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/cta-bg.jpg );
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.cta_text h4{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+.cta_text p{
+    text-align: center;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+.cta_text button{
+    color: white;
+   border: 1px solid white;
+   padding: 3px 15px;
+   background: transparent;
+   margin-left: 46%;  
+}
+/*----====portfolio====-------*/
+#portfolio{
+    width: 100%;
+    height: 300vh;
+}
+.portfolio_name{
+    padding-top: 3%;
+
+}
+.portfolio_name h6{
+    color: gray;
+}
+.portfolio_heading h2{
+    padding-bottom: 10px;
+}
+.portfolio_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.port_nav ul{
+    padding-top: 10px;
+    text-align: center;
+}
+.port-main h4{
+    font-weight: bolder;
+}
+.port_nav li{
+color: black;
+font-size: 12px;
+}
+.port_img img{
+    width: 95%;
+}
+.port-data h4{
+    padding-left: 50px;
+}
+.port-data p{
+    padding-left: 50px;
+}
+.port-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+/*---===Owner Section===----*/
+#owner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/testimonials-bg.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.owner-data img{
+width: 100px;
+height: 100px;
+margin-left: 46%;
+margin-top: 120px;
+border: 3px solid gray;
+border-radius: 50%;
+
+
+}
+.owner-data h5{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.owner-data p{
+    color: gainsboro;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+}
+.owner-label{
+    text-align: center;
+}
+.owner-label input{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.owner-label input:hover{
+    color: yellow;
+}
+
+/*-----===Team section===-----*/
+#team{
+    width: 100%;
+    height: 100vh;
+}
+.team_name{
+    padding-top: 3%;
+
+}
+.team_name h6{
+    color: gray;
+}
+.team_heading h2{
+    padding-bottom: 10px;
+}
+.team_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.team-card{
+    margin-top: 50px;
+}
+/*---===Contact Us Section=====---*/
+#contact{
+    width: 100%;
+    height: 120vh;
+}
+.contact_name{
+    padding-top: 1%;
+
+}
+.contact_name h6{
+    color: gray;
+}
+.contact_heading h2{
+    padding-bottom: 10px;
+}
+.contact_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.contact iframe{
+    margin-top: 10px;
+}
+.contact-info{
+    padding-top: 40px;
+}
+.contact-data h4 {
+    
+    padding-left: 70px;
+    
+    
+}
+.contact-data p{
+    padding-top: 0%;
+    padding-left: 70px;
+  
+    
+}
+
+
+.contact-data i{
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    
+    background-color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+.contact-form{
+    padding-top: 40px;
+    
+}
+.contact-form button {
+    font-size: 15px;
+    background-color: orange;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 5px 10px ;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+/*------====Footer section=====-----*/
+#footer{
+    width: 100%;
+    height: 45vh;
+    background-color: #2d3436;
+}
+.footer-col1{
+    padding-top: 30px;
+}
+.footer-col1 h3{
+    color: white;
+}
+.footer-col1 p{
+    color: white;
+}
+.footer-col1 ul{
+    list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 0;
+  
+   
+}
+.footer-col1 li{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+    
+}
+.footer-col2{
+    padding-top:40px ;
+}
+.footer-col2 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col2 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3{
+    padding-top:40px ;
+}
+.footer-col3 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4{
+    padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-col4 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 p{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 button{
+    background-color: orange;
+}
+/*------===CopyRight SEction===-----*/
+#copyright{
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    padding-top: 15px;
+}
+#copyright h6{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+#copyright p{
+    text-align: center;
+    color: white;
+}
+
+
+/*---==Media Quories===-----*/
+
+@media (max-width:586px) {
+    #home-page{
+        width: 100%;
+        height: 80vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-bg.jpg );
+        
+        background-size: cover;
+        
+       
+    }
+    /*--Toolbar--*/
+    .toolbar .logo{
+        padding-top: 10px;
+        font-size: 40px;
+        color: white;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    
+     .nav-link  {
+        color: white;
+        margin-left: 0;
+        
+        
+    }
+    .navbar a{
+        font-size: 10px;
+        padding-top: 0;
+        margin-top: 40;
+    }
+    .toolbar-btn button {
+        background: transparent;
+        color: white;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*---Home Text---*/
+    .home-text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
+    .home-text p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    /*---Boxes--*/
+    
+    .boxes {
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .boxes .box {
+        margin-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        border: 1px solid white;
+    }
+    
+    .box h1{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .box i{
+        color: yellow;
+        
+        font-size: 15px;
+        text-align: center;
+    }
+    /*--=========About US Section==========---*/
+#about-us {
+    width: 100%;
+    height: 140vh;
+}
+.about-txt {
+    padding-top: 80px;
+}
+.about-img img {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+}
+/*---About Skikers--*/
+.stiker img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+    /*--Features Section--*/
+#features {
+    width: 100%;
+    height: 120vh;
+}
+.feature-img img{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+}
+.feature-txt{
+    padding-top: 100px;
+}
+.feature-txt .txt-data {
+    
+    padding-bottom: 10px;
+    
+}
+.txt-data h4 {
+    padding-left: 50px;
+    
+    
+}
+.txt-data p{
+    padding-left: 50px;
+    
+}
+.txt-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+/*--==Services Section--=====*/
+#services{
+    width: 100%;
+    height: 110vh;
+
+}
+.services_name{
+    padding-top: 3%;
+
+}
+.services_name h6{
+    color: gray;
+}
+.services_heading h2{
+    padding-bottom: 10px;
+}
+.services_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.services_box{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 250px;
+}
+.services_box i{
+    background-color: coral;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.services_box h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}  
+/*----====Call to action===---*/
+#cta {
+    width: 100%;
+    height: 40vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/cta-bg.jpg );
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.cta_text h4{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.cta_text p{
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.cta_text button{
+    color: white;
+   border: 1px solid white;
+   padding: 3px 15px;
+   background: transparent;
+   margin-left: 40%;  
+}
+/*---===Owner Section===----*/
+#owner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/testimonials-bg.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.owner-data img{
+width: 100px;
+height: 100px;
+margin-left: 40%;
+margin-top: 40px;
+border: 3px solid gray;
+border-radius: 50%;
+
+
+}
+.owner-data h5{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.owner-data p{
+    color: gainsboro;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+}
+.owner-label{
+    text-align: center;
+}
+.owner-label input{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.owner-label input:hover{
+    color: yellow;
+}
+/*-----===Team section===-----*/
+#team{
+    width: 100%;
+    height: 180vh;
+}
+.team_name{
+    padding-top: 6%;
+
+}
+.team_name h6{
+    color: gray;
+}
+.team_heading h2{
+    padding-bottom: 10px;
+}
+.team_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.team-card{
+    margin-top: 50px;
+   
+}
+/*---===Contact Us Section=====---*/
+#contact{
+    width: 100%;
+    height: 180vh;
+}
+/*------====Footer section=====-----*/
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #2d3436;
+}
+.footer-col1{
+    padding-top: 30px;
+}
+.footer-col1 h3{
+    color: white;
+}
+.footer-col1 p{
+    color: white;
+    
+}
+.footer-col1 ul{
+    list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 0;
+  
+   
+}
+.footer-col1 li{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+    
+}
+.footer-col2{
+    padding-top:40px ;
+}
+.footer-col2 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col2 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3{
+    padding-top:40px ;
+}
+.footer-col3 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4{
+    padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-col4 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 p{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 button{
+    background-color: orange;
+}
+/*------===CopyRight SEction===-----*/
+#copyright{
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    padding-top: 15px;
+}
+#copyright h6{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+#copyright p{
+    text-align: center;
+    color: white;
+}
+
+
+}
+
+@media (max-width:767px) and (min-width:587px){
+    #home-page{
+        width: 100%;
+        height: 80vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-bg.jpg );
+        
+        background-size: cover;
+        
+       
+    }
+    /*--Toolbar--*/
+    .toolbar .logo{
+        padding-top: 10px;
+        font-size: 40px;
+        color: white;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    
+     .nav-link  {
+        color: white;
+        margin-left: 0;
+        
+        
+    }
+    .navbar a{
+        font-size: 10px;
+        padding-top: 0;
+        margin-top: 40;
+    }
+    .toolbar-btn button {
+        background: transparent;
+        color: white;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*---Home Text---*/
+    .home-text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
+    .home-text p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    /*---Boxes--*/
+    
+    .boxes {
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .boxes .box {
+        margin-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        border: 1px solid white;
+    }
+    
+    .box h1{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .box i{
+        color: yellow;
+        
+        font-size: 15px;
+        text-align: center;
+    }
+    /*--=========About US Section==========---*/
+#about-us {
+    width: 100%;
+    height: 100vh;
+}
+.about-txt {
+    padding-top: 80px;
+}
+.about-img img {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+}
+/*---About Skikers--*/
+.stiker img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+    /*--Features Section--*/
+#features {
+    width: 100%;
+    height: 80vh;
+}
+.feature-img img{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+}
+.feature-txt{
+    padding-top: 100px;
+}
+.feature-txt .txt-data {
+    
+    padding-bottom: 10px;
+    
+}
+.txt-data h4 {
+    padding-left: 50px;
+    
+    
+}
+.txt-data p{
+    padding-left: 50px;
+    
+}
+.txt-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+/*--==Services Section--=====*/
+#services{
+    width: 100%;
+    height: 100vh;
+
+}
+.services_name{
+    padding-top: 3%;
+
+}
+.services_name h6{
+    color: gray;
+}
+.services_heading h2{
+    padding-bottom: 10px;
+}
+.services_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.services_box{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 250px;
+}
+.services_box i{
+    background-color: coral;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.services_box h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}  
+/*----====Call to action===---*/
+#cta {
+    width: 100%;
+    height: 35vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/cta-bg.jpg );
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.cta_text h4{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.cta_text p{
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.cta_text button{
+    color: white;
+   border: 1px solid white;
+   padding: 3px 15px;
+   background: transparent;
+   margin-left: 40%;  
+}
+/*----====portfolio====-------*/
+#portfolio{
+    width: 100%;
+    height: 200vh;
+}
+
+/*---===Owner Section===----*/
+#owner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/testimonials-bg.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.owner-data img{
+width: 100px;
+height: 100px;
+margin-left: 40%;
+margin-top: 40px;
+border: 3px solid gray;
+border-radius: 50%;
+
+
+}
+.owner-data h5{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.owner-data p{
+    color: gainsboro;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+}
+.owner-label{
+    text-align: center;
+}
+.owner-label input{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.owner-label input:hover{
+    color: yellow;
+}
+/*-----===Team section===-----*/
+#team{
+    width: 100%;
+    height: 130vh;
+}
+.team_name{
+    padding-top: 6%;
+
+}
+.team_name h6{
+    color: gray;
+}
+.team_heading h2{
+    padding-bottom: 10px;
+}
+.team_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.team-card{
+    margin-top: 50px;
+   
+}
+/*---===Contact Us Section=====---*/
+#contact{
+    width: 100%;
+    height: 140vh;
+}
+/*------====Footer section=====-----*/
+#footer{
+    width: 100%;
+    height: 80vh;
+    background-color: #2d3436;
+}
+.footer-col1{
+    padding-top: 30px;
+}
+.footer-col1 h3{
+    color: white;
+}
+.footer-col1 p{
+    color: white;
+    
+}
+.footer-col1 ul{
+    list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 0;
+  
+   
+}
+.footer-col1 li{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+    
+}
+.footer-col2{
+    padding-top:40px ;
+}
+.footer-col2 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col2 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3{
+    padding-top:40px ;
+}
+.footer-col3 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4{
+    padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-col4 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 p{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 button{
+    background-color: orange;
+}
+/*------===CopyRight SEction===-----*/
+#copyright{
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    padding-top: 15px;
+}
+#copyright h6{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+#copyright p{
+    text-align: center;
+    color: white;
+}
+
+}
+@media (max-width:991px) and (min-width:768px){
+    #home-page{
+        width: 100%;
+        height: 60vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-bg.jpg );
+        
+        background-size: cover;
+        
+       
+    }
+    /*--Toolbar--*/
+    .toolbar .logo{
+        padding-top: 10px;
+        font-size: 40px;
+        color: white;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    
+     .nav-link  {
+        color: white;
+        margin-left: 0;
+        
+        
+    }
+    .navbar a{
+        font-size: 13px;
+        padding-top: 10;
+        margin-top: 40;
+    }
+    .toolbar-btn button {
+        background: transparent;
+        color: white;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 10px;
+    }
+    /*---Home Text---*/
+    .home-text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
+    .home-text p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    /*---Boxes--*/
+    
+    .boxes {
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .boxes .box {
+        margin-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        border: 1px solid white;
+    }
+    
+    .box h1{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .box i{
+        color: yellow;
+        
+        font-size: 15px;
+        text-align: center;
+    }
+    /*--=========About US Section==========---*/
+#about-us {
+    width: 100%;
+    height: 80vh;
+}
+.about-txt {
+    padding-top: 80px;
+}
+.about-img img {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+}
+/*---About Skikers--*/
+.stiker img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+    /*--Features Section--*/
+#features {
+    width: 100%;
+    height: 70vh;
+}
+.feature-img img{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+}
+.feature-txt{
+    padding-top: 100px;
+}
+.feature-txt .txt-data {
+    
+    padding-bottom: 10px;
+    
+}
+.txt-data h4 {
+    padding-left: 50px;
+    
+    
+}
+.txt-data p{
+    padding-left: 50px;
+    
+}
+.txt-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+/*--==Services Section--=====*/
+#services{
+    width: 100%;
+    height: 80vh;
+
+}
+.services_name{
+    padding-top: 3%;
+
+}
+.services_name h6{
+    color: gray;
+}
+.services_heading h2{
+    padding-bottom: 10px;
+}
+.services_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.services_box{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 250px;
+}
+.services_box i{
+    background-color: coral;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.services_box h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}  
+/*----====Call to action===---*/
+#cta {
+    width: 100%;
+    height: 27vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/cta-bg.jpg );
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.cta_text h4{
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.cta_text p{
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.cta_text button{
+    color: white;
+   border: 1px solid white;
+   padding: 3px 15px;
+   background: transparent;
+   margin-left: 40%;  
+}
+/*----====portfolio====-------*/
+#portfolio{
+    width: 100%;
+    height: 160vh;
+}
+
+/*---===Owner Section===----*/
+#owner{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/testimonials-bg.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.owner-data img{
+width: 100px;
+height: 100px;
+margin-left: 40%;
+margin-top: 40px;
+border: 3px solid gray;
+border-radius: 50%;
+
+
+}
+.owner-data h5{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.owner-data p{
+    color: gainsboro;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+}
+.owner-label{
+    text-align: center;
+}
+.owner-label input{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.owner-label input:hover{
+    color: yellow;
+}
+/*-----===Team section===-----*/
+#team{
+    width: 100%;
+    height: 110vh;
+}
+.team_name{
+    padding-top: 6%;
+
+}
+.team_name h6{
+    color: gray;
+}
+.team_heading h2{
+    padding-bottom: 10px;
+}
+.team_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.team-card{
+    margin-top: 50px;
+   
+}
+/*---===Contact Us Section=====---*/
+#contact{
+    width: 100%;
+    height: 110vh;
+}
+/*------====Footer section=====-----*/
+#footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #2d3436;
+}
+.footer-col1{
+    padding-top: 30px;
+}
+.footer-col1 h3{
+    color: white;
+}
+.footer-col1 p{
+    color: white;
+    
+}
+.footer-col1 ul{
+    list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 0;
+  
+   
+}
+.footer-col1 li{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+    
+}
+.footer-col2{
+    padding-top:40px ;
+}
+.footer-col2 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col2 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3{
+    padding-top:40px ;
+}
+.footer-col3 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4{
+    padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-col4 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 p{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 button{
+    background-color: orange;
+}
+/*------===CopyRight SEction===-----*/
+#copyright{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    padding-top: 15px;
+}
+#copyright h6{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+#copyright p{
+    text-align: center;
+    color: white;
+}
+
+}
+
+@media (max-width:1199px) and (min-width:992px){
+    /*--========Home Section==========--*/
+#home-page{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-bg.jpg );
+    
+    background-size: cover;
+    
+   
+}
+/*--Toolbar--*/
+.toolbar .logo{
+    padding-top: 10px;
+    font-size: 40px;
+    color: white;
+}
+ .nav-link  {
+    color: white;
+    margin-left: 10px;
+    
+    
+}
+
+.navbar a{
+    font-size: 18px;
+    padding-top: 0;
+    
+    margin-top: 40;
+}
+.toolbar-btn button {
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+    text-align: center;
+}
+/*---Home Text---*/
+.home-text h1{
+    font-size: 40px;
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+}
+.home-text p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*---Boxes--*/
+
+.boxes {
+    padding-left: 150px;
+    padding-top: 90px;
+}
+.boxes .box {
+    margin-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    border: 1px solid white;
+}
+.box h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+.box i{
+    color: yellow;
+    
+    font-size: 25px;
+    text-align: center;
+}
+
+
+/*--=========About US Section==========---*/
+#about-us {
+    width: 100%;
+    height: 60vh;
+}
+.about-txt {
+    padding-top: 80px;
+}
+.about-img img {
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+}
+/*---About Skikers--*/
+.stiker img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+/*--Features Section--*/
+#features {
+    width: 100%;
+    height: 60vh;
+}
+.feature-img img{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+}
+.feature-txt{
+    padding-top: 100px;
+}
+.feature-txt .txt-data {
+    
+    padding-bottom: 10px;
+    
+}
+.txt-data h4 {
+    padding-left: 50px;
+    
+    
+}
+.txt-data p{
+    padding-left: 50px;
+    
+}
+.txt-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+/*--==Services Section--=====*/
+#services{
+    width: 100%;
+    height: 70vh;
+
+}
+.services_name{
+    padding-top: 3%;
+
+}
+.services_name h6{
+    color: gray;
+}
+.services_heading h2{
+    padding-bottom: 10px;
+}
+.services_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.services_box{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 250px;
+}
+.services_box i{
+    background-color: coral;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.services_box h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/*----====Call to action===---*/
+#cta {
+    width: 100%;
+    height: 30vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/cta-bg.jpg );
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.cta_text h4{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    font-weight: bolder;
+}
+.cta_text p{
+    text-align: center;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+}
+.cta_text button{
+    color: white;
+   border: 1px solid white;
+   padding: 3px 15px;
+   background: transparent;
+   margin-left: 46%;  
+}
+/*----====portfolio====-------*/
+#portfolio{
+    width: 100%;
+    height: 150vh;
+}
+.portfolio_name{
+    padding-top: 3%;
+
+}
+.portfolio_name h6{
+    color: gray;
+}
+.portfolio_heading h2{
+    padding-bottom: 10px;
+}
+.portfolio_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.port_nav ul{
+    padding-top: 10px;
+    text-align: center;
+}
+.port-main h4{
+    font-weight: bolder;
+}
+.port_nav li{
+color: black;
+font-size: 12px;
+}
+.port_img img{
+    width: 95%;
+}
+.port-data h4{
+    padding-left: 50px;
+}
+.port-data p{
+    padding-left: 50px;
+}
+.port-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+/*---===Owner Section===----*/
+#owner{
+    width: 100%;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/testimonials-bg.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.owner-data img{
+width: 100px;
+height: 100px;
+margin-left: 46%;
+margin-top: 120px;
+border: 3px solid gray;
+border-radius: 50%;
+
+
+}
+.owner-data h5{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.owner-data p{
+    color: gainsboro;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+}
+.owner-label{
+    text-align: center;
+}
+.owner-label input{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.owner-label input:hover{
+    color: yellow;
+}
+
+/*-----===Team section===-----*/
+#team{
+    width: 100%;
+    height: 60vh;
+}
+.team_name{
+    padding-top: 3%;
+
+}
+.team_name h6{
+    color: gray;
+}
+.team_heading h2{
+    padding-bottom: 10px;
+}
+.team_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.team-card{
+    margin-top: 50px;
+}
+/*---===Contact Us Section=====---*/
+#contact{
+    width: 100%;
+    height: 70vh;
+}
+.contact_name{
+    padding-top: 1%;
+
+}
+.contact_name h6{
+    color: gray;
+}
+.contact_heading h2{
+    padding-bottom: 10px;
+}
+.contact_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.contact iframe{
+    margin-top: 10px;
+}
+.contact-info{
+    padding-top: 40px;
+}
+.contact-data h4 {
+    
+    padding-left: 70px;
+    
+    
+}
+.contact-data p{
+    padding-top: 0%;
+    padding-left: 70px;
+  
+    
+}
+
+
+.contact-data i{
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    
+    background-color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+.contact-form{
+    padding-top: 40px;
+    
+}
+.contact-form button {
+    font-size: 15px;
+    background-color: orange;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    padding: 5px 10px ;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+/*------====Footer section=====-----*/
+#footer{
+    width: 100%;
+    height: 35vh;
+    background-color: #2d3436;
+}
+.footer-col1{
+    padding-top: 30px;
+}
+.footer-col1 h3{
+    color: white;
+}
+.footer-col1 p{
+    color: white;
+}
+.footer-col1 ul{
+    list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 0;
+  
+   
+}
+.footer-col1 li{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+    
+}
+.footer-col2{
+    padding-top:40px ;
+}
+.footer-col2 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col2 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3{
+    padding-top:40px ;
+}
+.footer-col3 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4{
+    padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-col4 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 p{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 button{
+    background-color: orange;
+}
+/*------===CopyRight SEction===-----*/
+#copyright{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    padding-top: 15px;
+}
+#copyright h6{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+#copyright p{
+    text-align: center;
+    color: white;
+}
+
+
+
+}
+/*---====Media Query of Mobiles---====*/
+@media (max-width:640px) and (min-width:360px){
+    #home-page{
+        width: 100%;
+        height: 80vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/hero-bg.jpg );
+        
+        background-size: cover;
+        
+       
+    }
+    /*--Toolbar--*/
+    .toolbar .logo{
+        padding-top: 10px;
+        font-size: 30px;
+        color: white;
+    }
+    .logo h1{
+        font-size: 20px;
+    }
+    
+     .nav-link  {
+        color: white;
+        margin-left: 0;
+        
+        
+    }
+    .navbar a{
+        font-size: 10px;
+        padding-top: 0;
+        margin-top: 40;
+       
+       
+    }
+    .toolbar-btn button {
+        background: transparent;
+        color: white;
+        margin-top: 20px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 10px;
+       
+    }
+    /*---Home Text---*/
+    .home-text h1{
+        font-size: 40px;
+        padding-top: 40px;
+        text-align: center;
+        color: white;
+    }
+    .home-text p{
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    /*---Boxes--*/
+    
+    .boxes {
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+    .boxes .box {
+        margin-right: 10px;
+       padding-top: 10px;
+       padding-bottom: 10px;
+        border: 1px solid white;
+    }
+    
+    .box h1{
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    .box i{
+        color: yellow;
+        
+        font-size: 15px;
+        text-align: center;
+    }
+    /*--=========About US Section==========---*/
+#about-us {
+    width: 100%;
+    height: 140vh;
+}
+.about-txt {
+    padding-top: 80px;
+}
+.about-img img {
+    margin-top: 180px;
+    width: 100%;
+    height: auto;
+}
+/*---About Skikers--*/
+.stiker img {
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+}
+    /*--Features Section--*/
+#features {
+    width: 100%;
+    height: 120vh;
+}
+.feature-img img{
+    margin-top: 200px;
+    width: 100%;
+    height: auto;
+}
+.feature-txt{
+    padding-top: 100px;
+}
+.feature-txt .txt-data {
+    
+    padding-bottom: 10px;
+    
+}
+.txt-data h4 {
+    padding-left: 50px;
+    
+    
+}
+.txt-data p{
+    padding-left: 50px;
+    
+}
+.txt-data i{
+    position: absolute;
+    font-size: 30px;
+    color: orange;
+    margin-left: 5px;
+    margin-top: -20px;
+    
+}
+/*--==Services Section--=====*/
+#services{
+    width: 100%;
+    height: 110vh;
+
+}
+.services_name{
+    padding-top: 3%;
+
+}
+.services_name h6{
+    color: gray;
+}
+.services_heading h2{
+    padding-bottom: 10px;
+}
+.services_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 80px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.services_box{
+   border: 1px solid lightgray;
+   width: 90%;
+   height: 250px;
+}
+.services_box i{
+    background-color: coral;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 45px;
+}
+.services_box h5{
+    margin-top: 10px;
+    text-align: center;
+}
+.services_box p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}  
+/*----====Call to action===---*/
+#cta {
+    width: 100%;
+    height: 40vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/cta-bg.jpg );
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.cta_text h4{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    font-weight: bolder;
+}
+.cta_text p{
+    text-align: center;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.cta_text button{
+    color: white;
+   border: 1px solid white;
+   padding: 3px 15px;
+   background: transparent;
+   margin-left: 40%;  
+}
+/*---===Owner Section===----*/
+#owner{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/testimonials-bg.jpg );
+    background-position: center;
+    background-size: cover;
+}
+.owner-data img{
+width: 100px;
+height: 100px;
+margin-left: 40%;
+margin-top: 40px;
+border: 3px solid gray;
+border-radius: 50%;
+
+
+}
+.owner-data h5{
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+}
+.owner-data p{
+    color: gainsboro;
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    padding-left: 70px;
+    padding-right: 70px;
+    line-height: 20px;
+}
+.owner-label{
+    text-align: center;
+}
+.owner-label input{
+    margin-left: 5px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gainsboro;
+}
+.owner-label input:hover{
+    color: yellow;
+}
+/*-----===Team section===-----*/
+#team{
+    width: 100%;
+    height: 180vh;
+}
+.team_name{
+    padding-top: 6%;
+
+}
+.team_name h6{
+    color: gray;
+}
+.team_heading h2{
+    padding-bottom: 10px;
+}
+.team_name hr{
+    color: salmon;
+    width: 80px;
+    margin-left: 40px;
+    position: absolute;
+    margin-top: 10px;
+    padding-bottom: 1.5px;
+    
+}
+.team-card{
+    margin-top: 50px;
+   
+}
+/*---===Contact Us Section=====---*/
+#contact{
+    width: 100%;
+    height: 180vh;
+}
+/*------====Footer section=====-----*/
+#footer{
+    width: 100%;
+    height: 100vh;
+    background-color: #2d3436;
+}
+.footer-col1{
+    padding-top: 30px;
+}
+.footer-col1 h3{
+    color: white;
+}
+.footer-col1 p{
+    color: white;
+    
+}
+.footer-col1 ul{
+    list-style: none;
+   display: flex;
+   padding-left: 0;
+   margin-left: 0;
+  
+   
+}
+.footer-col1 li{
+    color: white;
+    background-color: black;
+    margin: 10px;
+    padding: 6px 8px;
+    border: 1px solid transparent;
+    border-radius: 10px ;
+    
+}
+.footer-col2{
+    padding-top:40px ;
+}
+.footer-col2 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col2 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3{
+    padding-top:40px ;
+}
+.footer-col3 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col3 li{
+    list-style: square;
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4{
+    padding-top: 40px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-col4 h6{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 p{
+    padding-bottom: 10px;
+    color: white;
+}
+.footer-col4 button{
+    background-color: orange;
+}
+/*------===CopyRight SEction===-----*/
+#copyright{
+    width: 100%;
+    height: 13vh;
+    background-color: black;
+    padding-top: 15px;
+}
+#copyright h6{
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+#copyright p{
+    text-align: center;
+    color: white;
+}
+
+
+}
